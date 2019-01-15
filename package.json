@@ -1,0 +1,22 @@
+{
+  "name": "pdf2json-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suke/pdf2json_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suke/pdf2json_sample/issues"
+  },
+  "homepage": "https://github.com/suke/pdf2json_sample#readme",
+  "dependencies": {
+    "pdf2json": "^1.1.7"
+  }
+}
