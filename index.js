@@ -9,4 +9,10 @@ pdfParser.on('pdfParser_dataReady', data => {
   console.log(JSON.stringify(data, null, '\t'))  
 })
 
-pdfParser.loadPDF('./sample.pdf')
+// pdfParser.loadPDF('./sample.pdf')
+
+fs.readFile('./sample.pdf', (err, pdfBuffer) => {
+  if (!err) {
+    pdfParser.parseBuffer(pdfBuffer)
+  }
+})
